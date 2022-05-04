@@ -1,0 +1,112 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+@font-face {
+    font-family: 'Idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+    background-color: #e9e6c3;
+
+}
+header {
+    background-image: linear-gradient(to bottom, #208750 , #17743f, #136736, #084c25, #003d1b, #063b1d );
+    box-shadow: 0px 5px 15px black;
+    
+}
+
+nav {
+    font-weight: bold;
+}
+
+nav > a {
+    font-weight: bold;
+    color: white;
+    margin-right: 25px;
+   
+}
+
+main {
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 5px;
+    width: 850px;
+    margin: auto;
+
+}
+
+section {
+    background-color: #195d38;
+    margin: auto;
+}
+
+aside {
+    background-color: rgb(129, 209, 129);
+    border-radius: 5px;
+
+}
+
+article {
+    background-color: white;
+}
+
+h3 {
+    background-color: rgb(7, 100, 7);
+}
+
+footer {
+
+    background-color: #195d38;
+    text-align: center;
+
+}
+
+h1 {
+    color: #195d38;
+    font-family: 'Idroid';
+    font-size: 25px;
+    text-align: left;
+    text-indent: 20px;
+}
+
+h1#principal {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    color: #195d38;
+    font-family: 'Idroid';
+    font-size: 15px;
+    text-align: left;
+    text-indent: 20px;
+    background-image: linear-gradient(to right, #6fb16f9a, #88cc889d, white, white, white, white, white);
+
+}
+p {
+    text-align: justify;
+    text-indent: 37px;
+    font-family: bold;
+}
+
+
+p#principal {
+    color: rgba(255, 255, 255, 0.829);
+    font-weight: bold;
+    text-align: center;
+}
+
+a#android {
+    text-decoration: underline;
+}

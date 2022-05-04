@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+
+:root {
+
+    --cor01: #304FB8;
+    --cor02: #4963B8;
+    --cor03: #3F4F85;
+    --cor04: #2B3A6B;
+    --cor05: #161E38;
+
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-titulos: 'Luckiest Guy', cursive;
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor05));
+    font-family: var(--fonte-padrao);
+   
+}
+
+
+header {
+    background-color: #000000c2;
+    text-align: center;
+    min-width: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: -20px -8.4px 0px -20px;
+    
+}
+
+header h1 {
+    font-family: var(--fonte-titulos);
+    font-size: 2em;
+    color: white;
+    
+}
+
+nav { 
+    background-color: #b3b318 ;
+    padding: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+nav > a {
+    color: var(--cor05);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor03);
+    color: white;
+
+
+}
+main {
+    background-color: white;
+    margin-top: auto;
+    min-width: 250px;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 50px;
+
+}
+
+main h1 {
+    font-family: var(--fonte-titulos);
+    font-size: 1em;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.281);
+   
+}
+
+main > img.foto {
+
+width: 30%;
+margin: auto;
+display: block;
+}
+
+main p.soueu {
+    font-size: .9em;
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    font-weight: bold;
+}
+
+main abbr {
+    text-decoration: none;
+    color: white;
+    background-color: var(--cor04);
+    
+}
+
+main h2 {     
+    font-family: var(--fonte-titulos);
+    font-size: 1em;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.281);
+}
+
+article{
+    background-color: #b3b318;
+    border-radius: 20px 20px 0px 0px;
+}
+article img {
+    max-width: 30px;
+    
+}
+
+article a {
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: .4s;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.281);
+}
+
+main p.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
